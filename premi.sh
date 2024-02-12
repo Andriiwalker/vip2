@@ -96,10 +96,10 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/arsy14x/vip/master/izin | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $Mhttps://raw.githubusercontent.com/arsy14x/vip/master/izinYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/arsy14x/vip/master/izin | grep $MYIP | awk '{print $3}')
-echo "$expx" >/usr/bin/e
+expx=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep https://raw.githubusercontent.com/arsy14x/vip/master/izin$MYIP | awk '{print $3}')
+echo "$expx" >/usr/bin/e5
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
@@ -122,7 +122,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/arsy14x/vip/master/izin | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -131,7 +131,7 @@ fi
 echo -e "\e[32mloading...\e[0m"
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/arsy14x/vip/master/"
+    REPO="https://raw.githubusercontent.com/Mrz051/vip2/master/"
 
 ####
 start=$(date +%s)
