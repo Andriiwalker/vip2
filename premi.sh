@@ -96,10 +96,10 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $Mhttps://raw.githubusercontent.com/arsy14x/vip/master/izinYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep https://raw.githubusercontent.com/arsy14x/vip/master/izin$MYIP | awk '{print $3}')
-echo "$expx" >/usr/bin/e5
+expx=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $MYIP | awk '{print $3}')
+echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
@@ -311,7 +311,7 @@ clear
 #GANTI PASSWORD DEFAULT
 restart_system(){
     USRSC=$(curl -sS https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $MYIP | awk '{print $2}')
-    EXPSC=$(curl -sS https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $MYIP | awk '{print $3}')
+    EXPSC=$(curl -sS https://raw.githubusercontent.com/arsy14x/vip/master/izin | grep $MYIP | awk '{print $3}')
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
