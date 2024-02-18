@@ -154,7 +154,7 @@ let ssa=$ssx/2
 r="\033[1;31m"  #REDTERANG
 echo -e " "
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
-echo -e " $BLUE│$NC $BG                • MRZVPN TUNNELING V.1.4 •                $NC $BLUE│$NC"
+echo -e " $BLUE│$NC $BG                • MRZVPN TUNNELING V.2 •                $NC $BLUE│$NC"
 echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
 echo -e " $BLUE│$NC$r • $NC$WHITE System OS ${NC}     $WHITE:$NC $MODEL${NC}"
@@ -186,7 +186,7 @@ echo -e " $BLUE│$NC [${r}08${NC}]$WHITE BOT NOTIF$NC    $BLUE│$NC [${r}17${N
 echo -e " $BLUE│$NC [${r}09${NC}]$WHITE BANNER$NC       $BLUE│$NC [${r}18${NC}] BACKUP       $NC$BLUE│$NC [${r}00${NC}]$WHITE EXIT MENU$NC   $BLUE│$NC"
 echo -e " $BLUE╰──────────────────────────────────────────────────────────╯${NC}"
 echo -e " $BLUE╭──────────────────────────────────────────────────────────╮${NC}"
-echo -e " $BLUE│$NC$r • $NC$WHITE Version$NC        ${WHITE}:$GREEN V.1.4$NC"
+echo -e " $BLUE│$NC$r • $NC$WHITE Version$NC        ${WHITE}:$GREEN V.2$NC"
 echo -e " $BLUE│$NC$r • $NC$WHITE User$NC           ${WHITE}:$GREEN $username$NC"
 echo -e " $BLUE│$NC$r • $NC$WHITE Script Status$NC  ${WHITE}:$GREEN $sts$NC"
 echo -e " $BLUE│$NC$r • $NC$WHITE Expiry script  :$NC $GREEN$exp $certifacate Days$NC "
