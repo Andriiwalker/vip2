@@ -130,7 +130,7 @@ fi
 
 # STATUS SERVICE NGINX
 if [[ $nginx_service == "running" ]]; then 
-   status_nginx="${GREEN}✓. ${NC}"
+   status_nginx="${GREEN}✓  ${NC}"
 else
    status_nginx="${RED}🔴${NC} "
 fi
