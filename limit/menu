@@ -1,5 +1,5 @@
 #!/bin/bash
-# My Telegram : https://t.me/amgeekzssh
+# My Telegram : https://t.me/Peyyx
 # ==========================================
 # Color
 GREEN='\e[32m'
@@ -8,7 +8,7 @@ BGBLUE='\e[1;44m'
 ORANGE='\033[0;33m'
 BLUE='\033[1;36m'
 PURPLE='\033[0;35m'
-CYAN='\033[0;36m'
+BLUE='\033[0;36m'
 BG='\E[44;1;39m'
 NC='\033[0;37m'
 WHITE='\033[0;37m'
@@ -65,7 +65,7 @@ if [[ "$certifacate" -le "0" ]]; then
 sts="${Error}"
 echo -e " ${RED}Masa Aktif Script Kamu Sudah Habis${NC}"
 echo -e " ${RED}Silahkan Contact Admin Untuk Perpanjang ${NC}"
-echo -e " ${GREEN}Whatsapp = 6283822641517 ${NC}"
+echo -e " ${GREEN}Whatsapp = 6283151636921 ${NC}"
 echo -e " ${GREEN}Telegram = Peyyx ${NC}"
 sleep 3
 exit 1
@@ -101,7 +101,7 @@ nginx_service=$(systemctl status nginx | grep Active | awk '{print $3}' | cut -d
 clear
 # STATUS SERVICE  SSH 
 if [[ $ssh_service == "running" ]]; then 
-   status_ssh="${GREEN}🟢${NC}"
+   status_ssh="${GREEN}✓${NC}"
 else
    status_ssh="${RED}🔴${NC} "
 fi
@@ -109,35 +109,35 @@ fi
 # // SSH Websocket Proxy
 ssh_ws=$( systemctl status ws | grep Active | awk '{print $3}' | sed 's/(//g' | sed 's/)//g' )
 if [[ $ssh_ws == "running" ]]; then
-    status_ws_epro="${GREEN}🟢${NC}"
+    status_ws_epro="${GREEN}✓${NC}"
 else
     status_ws_epro="${RED}🔴${NC} "
 fi
 
 # STATUS SERVICE HAPROXY
 if [[ $haproxy_service == "running" ]]; then 
-   status_haproxy="${GREEN}🟢${NC}"
+   status_haproxy="${GREEN}✓  ${NC}"
 else
    status_haproxy="${RED}🔴${NC} "
 fi
 
 # STATUS SERVICE XRAY
 if [[ $xray_service == "running" ]]; then 
-   status_xray="${GREEN}🟢${NC}"
+   status_xray="${GREEN} ✓${NC}"
 else
    status_xray="${RED}🔴${NC} "
 fi
 
 # STATUS SERVICE NGINX
 if [[ $nginx_service == "running" ]]; then 
-   status_nginx="${GREEN}🟢${NC}"
+   status_nginx="${GREEN}✓. ${NC}"
 else
    status_nginx="${RED}🔴${NC} "
 fi
 
 # STATUS SERVICE Dropbear
 if [[ $dropbear_service == "running" ]]; then 
-   status_dropbear="${GREEN}🟢${NC}"
+   status_dropbear="${GREEN}✓ ${NC}"
 else
    status_dropbear="${RED}🔴${NC} "
 fi
@@ -154,7 +154,7 @@ let ssa=$ssx/2
 r="\033[1;31m"  #REDTERANG
 echo -e " "
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
-echo -e " $BLUE│$NC $BG                • MRZVPN TUNNELING V.2 •                $NC $BLUE│$NC"
+echo -e " $BLUE│$NC $BG              • MRZVPN TUNNELING V.2.0 •                $NC $BLUE│$NC"
 echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
 echo -e " $BLUE│$NC$r • $NC$WHITE System OS ${NC}     $WHITE:$NC $MODEL${NC}"
@@ -186,7 +186,7 @@ echo -e " $BLUE│$NC [${r}08${NC}]$WHITE BOT NOTIF$NC    $BLUE│$NC [${r}17${N
 echo -e " $BLUE│$NC [${r}09${NC}]$WHITE BANNER$NC       $BLUE│$NC [${r}18${NC}] BACKUP       $NC$BLUE│$NC [${r}00${NC}]$WHITE EXIT MENU$NC   $BLUE│$NC"
 echo -e " $BLUE╰──────────────────────────────────────────────────────────╯${NC}"
 echo -e " $BLUE╭──────────────────────────────────────────────────────────╮${NC}"
-echo -e " $BLUE│$NC$r • $NC$WHITE Version$NC        ${WHITE}:$GREEN V.2$NC"
+echo -e " $BLUE│$NC$r • $NC$WHITE Version$NC        ${WHITE}:$GREEN V.2.0 {latest update}$NC"
 echo -e " $BLUE│$NC$r • $NC$WHITE User$NC           ${WHITE}:$GREEN $username$NC"
 echo -e " $BLUE│$NC$r • $NC$WHITE Script Status$NC  ${WHITE}:$GREEN $sts$NC"
 echo -e " $BLUE│$NC$r • $NC$WHITE Expiry script  :$NC $GREEN$exp $certifacate Days$NC "
