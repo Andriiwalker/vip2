@@ -185,13 +185,12 @@ echo -e " $BLUE│$NC [${r}07${NC}]$WHITE VPS INFO$NC     $ORANGE•$NC [${r}16$
 echo -e " $BLUE│$NC [${r}08${NC}]$WHITE BOT NOTIF$NC    $ORANGE•$NC [${r}17${NC}]$WHITE UPDATE SC    $NC$ORANGE•$NC [${r}26${NC}]$WHITE BOT PANEL   $NC$BLUE│$NC"
 echo -e " $BLUE│$NC [${r}09${NC}]$WHITE BANNER$NC       $ORANGE•$NC [${r}18${NC}] BACKUP       $NC$ORANGE•$NC [${r}00${NC}]$WHITE EXIT MENU$NC   $BLUE│$NC"
 echo -e " $BLUE╰──────────────────────────────────────────────────────────╯${NC}"
-echo -e " $BLUE╭──────────────────────────────────────────────────────────╮${NC}"
-echo -e " $BLUE│$NC$r • $NC$WHITE Version$NC        ${WHITE}:$ORANGE V.2.0 {latest update}$NC"
-echo -e " $BLUE│$NC$r • $NC$WHITE User$NC           ${WHITE}:$ORANGE $username$NC"
-echo -e " $BLUE│$NC$r • $NC$WHITE Script Status$NC  ${WHITE}:$GREEN $sts$NC"
-echo -e " $BLUE│$NC$r • $NC$WHITE Expiry script  :$NC $RED$exp $certifacate Days$NC "
-echo -e " $BLUE╰──────────────────────────────────────────────────────────╯${NC}"
-echo
+echo -e " $BLUE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+echo -e " $NC$r >> $NC$WHITE Version$NC        ${WHITE}:$ORANGE V.2.0 {latest update}$NC"
+echo -e " $NC$r >> $NC$WHITE User$NC           ${WHITE}:$ORANGE $username$NC"
+echo -e " $NC$r >> $NC$WHITE Script Status$NC  ${WHITE}:$GREEN $sts$NC"
+echo -e " $NC$r >> $NC$WHITE Expiry script  :$NC $RED$exp $certifacate Days$NC "
+echo -e " $BLUE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 read -p " Select menu : " opt
 echo -e ""
 case $opt in
