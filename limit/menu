@@ -166,7 +166,7 @@ echo -e " $BLUE│$NC$r ❒ $NC$WHITE IP VPS ${NC}        $WHITE:$NC$GREEN $IPVP
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE ISP ${NC}           $WHITE:$NC$WHITE $ISP${NC}"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE City ${NC}          $WHITE:$NC $CITY${NC}"
 echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
-echo -e "$ORANGE                >>> $NC$r フェルディアンシャー $NC$ORANGE<<< $NC"
+echo -e "$ORANGE                  >>> $NC$rフェルディアンシャー$NC$ORANGE<<< $NC"
 echo -e "$BLUE   •──────────────────────────────────────────────────────•$NC"
 echo -e "$NC$r          •$NC$ORANGE SSH/OVPN          $NC$r ➤ $GREEN${ssh}$NC$GREEN ACCOUNT PREMIUM$NC"
 echo -e "$NC$r          •$NC$ORANGE VMESS/WS/GRPC     $NC$r ➤ $GREEN${vma}$NC$GREEN ACCOUNT PREMIUM$NC"  
