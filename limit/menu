@@ -163,7 +163,7 @@ echo -e " $BLUE│$NC$r ❒ $NC$WHITE Server RAM ${NC}    $WHITE:$NC $uram/$RAM 
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE Uptime Server ${NC} $WHITE:$NC $SERONLINE${NC}"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE Domain ${NC}        $WHITE:$NC$GREEN $domain${NC}"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE IP VPS ${NC}        $WHITE:$NC$GREEN $IPVPS${NC}"
-echo -e " $BLUE│$NC$r ❒ $NC$WHITE ISP ${NC}           $WHITE:$NC$BLUE $ISP${NC}"
+echo -e " $BLUE│$NC$r ❒ $NC$WHITE ISP ${NC}           $WHITE:$NC$WHITE $ISP${NC}"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE City ${NC}          $WHITE:$NC $CITY${NC}"
 echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
 echo -e "$BLUE •──────────────────────────────────────────────────────────•$NC"
