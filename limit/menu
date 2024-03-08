@@ -154,7 +154,7 @@ let ssa=$ssx/2
 r="\033[1;31m"  #REDTERANG
 echo -e " "
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
-echo -e " $BLUE│$NC $BG                 • MRZ TUNNELING V.2.0 •                $NC $BLUE│$NC"
+echo -e " $BLUE│$NC $BG                    • MRZ TUNNELING •                   $NC $BLUE│$NC"
 echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE System OS ${NC}     $WHITE:$NC $MODEL${NC}"
