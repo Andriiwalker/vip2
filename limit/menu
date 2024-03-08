@@ -33,7 +33,7 @@ Repo1="https://raw.githubusercontent.com/Lunatic-v5/IZIN/Lunatic/"
 export MYIP=$( curl -s https://ipinfo.io/ip/ )
 Name=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $2}')
 Exp=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
-data_ip="https://raw.githubusercontent.com/arsy14x/vip/master/izin"
+data_ip="https://raw.githubusercontent.com/Mrz051/vip2/master/izin"
 d2=$(date -d "$date_list" +"+%s")
 d1=$(date -d "$Exp" +"+%s")
 dayleft=$(( ($d1 - $d2) / 86400 ))
@@ -128,7 +128,7 @@ CYAN='\033[0;96m'        # Cyan
 YELLOW='\033[0;93m'      # Yellow
 NC='\e[0m'
 
-UPDATE="https://raw.githubusercontent.com/Lunatic-v5/z4/Lunatic/"
+UPDATE="https://wget https://raw.githubusercontent.com/Mrz051/vip2/master/update.sh && chmod +x update.sh && ./update.sh
 #Bottt
 BOT="https://raw.githubusercontent.com/myridwan/src/ipuk/"
 #ingfo
