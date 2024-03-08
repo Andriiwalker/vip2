@@ -154,7 +154,7 @@ let ssa=$ssx/2
 r="\033[1;31m"  #REDTERANG
 echo -e " "
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
-echo -e " $BLUE│$NC $BG                 • SERVER INFORMATION •                 $NC $BLUE│$NC"
+echo -e " $BLUE│$NC$BG                  • SERVER INFORMATION •                 $NC $BLUE│$NC"
 echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE System OS ${NC}     $WHITE:$NC $MODEL${NC}"
@@ -170,13 +170,13 @@ echo -e " $BLUE│$NC$r ❒ $NC$WHITE User$NC           ${WHITE}:$ORANGE $userna
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE Expiry script  :$NC $RED$exp $certifacate Days$NC "
 echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
 echo -e "$ORANGE                 >>>$NC$rフェルディアンシャー$NC$ORANGE<<< $NC"
-echo -e "$BLUE      ❈───────────────────────────────────────────────❈ $NC"
+echo -e "      ❈───────────────────────────────────────────────❈ " | lolcat
 echo -e "$NC$r            •$NC$ORANGE SSH/OVPN       $NC$r ➤ $GREEN${ssh1}$NC$GREEN ACCOUNT PREMIUM$NC"
 echo -e "$NC$r            •$NC$ORANGE VMESS/WS/GRPC  $NC$r ➤ $GREEN${vma}$NC$GREEN ACCOUNT PREMIUM$NC"  
 echo -e "$NC$r            •$NC$ORANGE VLESS/WS/GRPC  $NC$r ➤ $GREEN${vla}$NC$GREEN ACCOUNT PREMIUM$NC"   
 echo -e "$NC$r            •$NC$ORANGE TROJAN/WS/GRPC $NC$r ➤ $GREEN${trb}$NC$GREEN ACCOUNT PREMIUM$NC"
 echo -e "$NC$r            •$NC$ORANGE SHADOWSOCK     $NC$r ➤ $GREEN${ssa}$NC$GREEN ACCOUNT PREMIUM$NC"    
-echo -e "$BLUE      ❈───────────────────────────────────────────────❈ $NC"
+echo -e "      ❈───────────────────────────────────────────────❈ " | lolcat
 echo -e " $BLUE╭────────────────╮╭──────────────────╮╭────────────────────╮${NC}"
 echo -e " $BLUE│ ${NC} $WHITE SSH$NC : $status_ssh" "         $WHITE NGINX$NC : $status_nginx" "        $WHITE  XRAY$NC : $status_xray      $NC$BLUE│$NC" 
 echo -e " $BLUE│ ${NC} $WHITE WS-ePRO$NC : $status_ws_epro" "     $WHITE DROPBEAR$NC : $status_dropbear" "     $WHITE  HAPROXY$NC : $status_haproxy   $NC$BLUE│$NC" 
@@ -192,9 +192,9 @@ echo -e " $BLUE│$NC [${r}07${NC}]$WHITE VPS INFO$NC     $ORANGE•$NC [${r}16$
 echo -e " $BLUE│$NC [${r}08${NC}]$WHITE BOT NOTIF$NC    $ORANGE•$NC [${r}17${NC}]$WHITE UPDATE SC    $NC$ORANGE•$NC [${r}26${NC}]$WHITE BOT PANEL   $NC$BLUE│$NC"
 echo -e " $BLUE│$NC [${r}09${NC}]$WHITE BANNER$NC       $ORANGE•$NC [${r}18${NC}] BACKUP       $NC$ORANGE•$NC [${r}00${NC}]$WHITE EXIT MENU$NC   $BLUE│$NC"
 echo -e " $BLUE╰──────────────────────────────────────────────────────────╯${NC}"
-echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
-echo -e " $BLUE│$NC $BG                   • MRZ TUNNELING •                    $NC $BLUE│$NC"
-echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
+echo -e " ╭──────────────────────────────────────────────────────────╮$NC"
+echo -e "  $BLUE|$NC$BG                    • MRZ TUNNELING •                    $NC $BLUE│$NC"
+echo -e " ╰──────────────────────────────────────────────────────────╯$NC"
 read -p " Select menu : " opt
 echo -e ""
 case $opt in
