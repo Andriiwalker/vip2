@@ -153,9 +153,9 @@ ssx=$(grep -c -E "^#ss# " "/etc/xray/config.json")
 let ssa=$ssx/2
 r="\033[1;31m"  #REDTERANG
 echo -e " "
-echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
+echo -e " ╭──────────────────────────────────────────────────────────╮" | lolcat
 echo -e " $BLUE│$NC $BG                 • SERVER INFORMATION •                 $NC $BLUE│$NC"
-echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
+echo -e " ╰──────────────────────────────────────────────────────────╯" | lolcat
 echo -e "$BLUE ╭──────────────────────────────────────────────────────────╮$NC"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE System OS ${NC}     $WHITE:$NC $MODEL${NC}"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE Core System ${NC}   $WHITE:$NC $CORE${NC}"
@@ -169,7 +169,7 @@ echo -e " $BLUE│$NC$r ❒ $NC$WHITE Script Status$NC  ${WHITE}:$GREEN $sts$NC"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE User$NC           ${WHITE}:$ORANGE $username$NC"
 echo -e " $BLUE│$NC$r ❒ $NC$WHITE Expiry script  :$NC $RED$exp $certifacate Days$NC "
 echo -e "$BLUE ╰──────────────────────────────────────────────────────────╯$NC"
-echo -e "$ORANGE                >>>$NC$BLUE ACCOUNT INFORMATION $NC$ORANGE<<< $NC"
+echo -e "                 >>> ACCOUNT INFORMATION <<<" | lolcat
 echo -e "      ❈───────────────────────────────────────────────❈ " | lolcat
 echo -e "$NC$r            •$NC$ORANGE SSH/OVPN       $NC$r ➤ $GREEN${ssh1}$NC$GREEN ACCOUNT PREMIUM$NC"
 echo -e "$NC$r            •$NC$ORANGE VMESS/WS/GRPC  $NC$r ➤ $GREEN${vma}$NC$GREEN ACCOUNT PREMIUM$NC"  
