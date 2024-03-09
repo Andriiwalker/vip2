@@ -18,8 +18,8 @@ NC='\e[0m'
 red='\e[1;31m'
 green='\e[0;32m'
 TIMES="10"
-CHATID=""
-KEY=""
+CHATID="6011254481"
+KEY="6761535040:AAGlQOMt4S9GYf5BX_h2NcvtnpX1ZZQMoy4"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 clear
@@ -36,7 +36,7 @@ echo -e "${YELLOW}----------------------------------------------------------${NC
 echo -e "  Welcome To SCRIPT ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
 echo -e "  Auther : ${green} PEYXMRZ ® ${NC}${YELLOW}(${NC} ${green} PEYXMRZ ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self PEYXMRZ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
+echo -e " © Recode By My Self PEYXMRZ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -96,9 +96,9 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/arsy14x/vip/master/izin | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/Mrz051/vip2/master/izin | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/arsy14x/vip/master/izin | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -315,7 +315,7 @@ restart_system(){
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
-<b>⚡AUTOSCRIPT PREMIUM⚡</b>
+<b>  ⚡AUTOSCRIPT PREMIUM⚡</b>
 <code>────────────────────</code>
 <code>Owner    :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
@@ -328,8 +328,8 @@ restart_system(){
 <b> SCRIPT NOTIF </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/6283151636921"}]]}' 
-#"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ2","url":"https://wa.me/6283151636921"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/6287824016438"}]]}' 
+#"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ2","url":"https://wa.me/6287824016438"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 
 }
