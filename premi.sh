@@ -263,13 +263,12 @@ TEXT="
 <code>────────────────────</code>
 <b>    💥AUTOSCRIPT PREMIUM💥</b>
 <code>────────────────────</code>
-<code>Owner    :</code><code>$username</code>
-<code>Domain   :</code><code>$domain</code>
-<code>IPVPS    :</code><code>$IP</code>
-<code>ISP      :</code><code>$ISP</code>
-<code>DATE     :</code><code>$tnggl</code>
-<code>Time     :</code><code>$TIMEZONE</code>
-<code>Exp Sc.  :</code><code>$expe</code>
+💥 » <code>Owner    :</code><code>$username</code>
+💥 » <code>Domain   :</code><code>$domain</code>
+💥 » <code>IPVPS    :</code><code>$IP</code>
+💥 » <code>ISP      :</code><code>$ISP</code>
+💥 » <code>Time     :</code><code>$TIMEZONE</code>
+💥 » <code>Exp Sc.  :</code><code>$masaaktif</code>
 <code>────────────────────</code>
 <b> SCRIPT NOTIF </b>
 <code>────────────────────</code>
