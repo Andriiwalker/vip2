@@ -261,15 +261,15 @@ EXPSC=$(curl -sS https://raw.githubusercontent.com/Mrz051/vip2/master/izin | gre
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
-<b>  ⚡AUTOSCRIPT PREMIUM⚡</b>
+<b>    💥AUTOSCRIPT PREMIUM💥</b>
 <code>────────────────────</code>
 <code>Owner    :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
-<code>IPVPS    :</code><code>$IPVPS</code>
+<code>IPVPS    :</code><code>$IP</code>
 <code>ISP      :</code><code>$ISP</code>
-<code>DATE     :</code><code>$DATEVPS</code>
+<code>DATE     :</code><code>$tnggl</code>
 <code>Time     :</code><code>$TIMEZONE</code>
-<code>Exp Sc.  :</code><code>$exp</code>
+<code>Exp Sc.  :</code><code>$expe</code>
 <code>────────────────────</code>
 <b> SCRIPT NOTIF </b>
 <code>────────────────────</code>
