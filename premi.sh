@@ -267,8 +267,9 @@ TEXT="
 💥 » <code>Domain   :</code><code>$domain</code>
 💥 » <code>IPVPS    :</code><code>$IP</code>
 💥 » <code>ISP      :</code><code>$ISP</code>
-💥 » <code>Time     :</code><code>$TIMEZONE</code>
-💥 » <code>Exp Sc.  :</code><code>$masaaktif</code>
+💥 » <code>OS      :</code><code>$MODEL</code>
+💥 » <code>COUNTRY    :</code><code>$CITY</code>
+💥 » <code>EXP SC  :</code><code>$masaaktif</code>
 <code>────────────────────</code>
 <b> SCRIPT NOTIF </b>
 <code>────────────────────</code>
